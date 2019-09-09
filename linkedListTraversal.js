@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Reverese the string</title>
-</head>
-<body>
-
-<h1></h1>
-<p></p>
-<script>
-  class Node {
+class Node {
   constructor(data, next = null) {
     this.data = data;
     this.next = next;
@@ -27,8 +17,8 @@ class LinkedList {
     this.size++; 
   }
 
-  //Inserting the last node
-  insertLast(data) {
+  //Inserting the next node
+  insertNext(data) {
     let node = new Node(data);
     let current;
 
@@ -76,19 +66,16 @@ class LinkedList {
 const myLinkedList = new LinkedList();
 
 myLinkedList.insertFirst(1);
-myLinkedList.insertLast(2);
-myLinkedList.insertLast(3);
-myLinkedList.insertLast(4);
-myLinkedList.insertLast(5);
-myLinkedList.insertLast(6);
-myLinkedList.insertLast(7);
-myLinkedList.insertLast(8);
-myLinkedList.insertLast(9);
-myLinkedList.insertLast(10);
+myLinkedList.insertNext(2);
+myLinkedList.insertNext(3);
+myLinkedList.insertNext(4);
+myLinkedList.insertNext(5);
+myLinkedList.insertNext(6);
+myLinkedList.insertNext(7);
+myLinkedList.insertNext(8);
+myLinkedList.insertNext(9);
+myLinkedList.insertNext(10);
 
 myLinkedList.printListData();
 
-myLinkedList.getNthNode(1)
-</script>
-</body>
-</html>
+myLinkedList.getNthNode(5)

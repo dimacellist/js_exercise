@@ -1,7 +1,6 @@
 function reverse_words(str) {
-  str = "Marry got married to a goat";
-  let reversed = str.split('').reverse().join('');
-  console.log(reversed);
+  str = ""
+  let reversed = str.split('').reverse().join('')
 }
 
-reverse_words("Marry got married to a goat");
+reverse_words("Marry got married to a goat")
