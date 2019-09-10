@@ -4,7 +4,7 @@
 
 Objective: 
 
-Given the numerical lengths of the 3 sides of a triangle, return the type of triangle formed by these 3 sides.
+For any given sentence, reverse the characters of each word in the sentence.
 
 
 ## Number 2: Triangle Categorization
