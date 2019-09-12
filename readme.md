@@ -18,3 +18,12 @@ Function will return the type of the triangle:
 An Equilateral triangle has three equal sides.
 An Isosceles triangle has two equal sides. 
 A Scalene triangle has no equal sides.
+
+## Number 3: Linked List Traversal
+
+Objective:
+
+Given a singularly linked list of integers, return the 5th integer from the end of the list using the most efficient method. 
+
+Function getNthLastNode(index) will return necessary nth node from the end
+Given the linked list consist of numbers from 1 to 10, 5th from end would be number 6
