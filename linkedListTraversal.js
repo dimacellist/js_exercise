@@ -57,10 +57,9 @@ class Node {
   const myLinkedList = new LinkedList();
   
   myLinkedList.insertFirst(1);
-  
   for(let i = 2; i<=10; i++){
     myLinkedList.insertNext(i);
   }
   
-  myLinkedList.getNthNode(5)
+  myLinkedList.getNthLastNode(5)
   
