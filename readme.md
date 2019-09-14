@@ -85,11 +85,11 @@ return secondPointer
 
 # Testing
 
-To Unit Test my code, I am using (Mocha.js)[https://mochajs.org/] and (Chai.js)[https://www.chaijs.com/]
+To Unit Test my code, I am using (Mocha.js)[https://mochajs.org] and (Chai.js)[https://www.chaijs.com]
 
 SETUP:
 
-!!! Make sure to have (Node.js)[https://nodejs.org/en/] installed on your machine !!!
+!!! Make sure to have (Node.js)[https://nodejs.org/en] installed on your machine !!!
 
 - Clone the repo: `git clone git@github.com:dimacellist/js_exercise.git`
 - Install dependencies: `npm install`
