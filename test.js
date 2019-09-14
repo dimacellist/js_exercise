@@ -2,7 +2,6 @@ const assert = require('assert')
 const expect = require('chai').expect
 const reverseWords = require('./reverseWords')
 const triangleCategorization = require('./triangleCategorization')
-const node = require('./linkedListTraversal')
 const linkedList = require('./linkedListTraversal')
 
 //Testing reverseWords function
@@ -106,16 +105,19 @@ describe('LinkedList', function(){
 
   it('Should return nth index from the end of the list', function() {
     list.insertFirst(1);
-    for(let i = 2; i<=10; i++) {
+    for(let i = 2; i <= 10; i++) {
       list.insertNext(i);
     }
-    list.getNthLastNode(5);
 
     expect(list.head.data).to.equal(1);
     expect(list.head.next).to.be.a('object');
     expect(list.size).to.equal(10);
 
-    assert.equal(list.getNthLastNode(5), 'data: 6')
-  });
-
+    //You can play around and try different options
+    assert.equal(list.getNthLastNodeNew(1).data, 10)
+    assert.equal(list.getNthLastNodeNew(2).data, 9)
+    assert.equal(list.getNthLastNodeNew(3).data, 8)
+    assert.equal(list.getNthLastNodeNew(4).data, 7)
+    assert.equal(list.getNthLastNodeNew(5).data, 6)
+  })
 })

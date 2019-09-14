@@ -27,3 +27,12 @@ Given a singularly linked list of integers, return the 5th integer from the end 
 
 Function getNthLastNode(index) will return necessary nth node from the end
 Given the linked list consist of numbers from 1 to 10, 5th from end would be number 6
+
+# Testing
+
+SETUP:
+
+- Clone the repo: `git clone git@github.com:dimacellist/js_exercise.git`
+- Install dependencies: `npm install`
+- Run the tests: `npm test`
+
