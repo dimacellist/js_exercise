@@ -7,7 +7,7 @@ const linkedList = require('./linkedListTraversal')
 //Testing reverseWords function
 describe('ReverseWords', function(){
 
-  it('Hello world reverses to dlrow olleH', function(){
+  it('Hello world reverses to olleH dlrow', function(){
     assert.equal(reverseWords('Hello world'), 'olleH dlrow')
   })
 
