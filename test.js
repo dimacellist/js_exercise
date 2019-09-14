@@ -21,7 +21,7 @@ describe('ReverseWords', function(){
 })
 
 //Testing triangleCategorization function
-describe('triangleCategorization', function(){
+describe('TriangleCategorization', function(){
 
   it('Should return error if no parameters given', function(){
     assert.equal(triangleCategorization(), 
