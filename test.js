@@ -40,7 +40,7 @@ describe('triangleCategorization', function(){
 
   it('Should check if triangle is valid', function(){
     assert.equal(triangleCategorization(10, 1, 2), 
-    'Sorry, but inputs is not valid, please refer to triangle inequality theorem')
+    'Sorry, but inputs are not valid, please refer to triangle inequality theorem')
   })
 
   it('Should return as Equilateral', function(){
