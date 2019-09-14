@@ -39,7 +39,7 @@ function getTriangleType(a, b, c) {
 
   //Check if it is a valid triangle
   if(!(a + b > c && b + c > a && a + c > b)){
-    return "Sorry, but inputs is not valid, please refer to triangle inequality theorem"
+    return "Sorry, but inputs are not valid, please refer to triangle inequality theorem"
   }
   
   //Check for correct triangle type
