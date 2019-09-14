@@ -36,3 +36,4 @@ SETUP:
 - Install dependencies: `npm install`
 - Run the tests: `npm test`
 
+![Tests](https://res.cloudinary.com/dksg2fojb/image/upload/v1568494382/Screenshot_2019-09-14_at_23.52.24_guqzpv.png)
